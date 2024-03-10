@@ -90,7 +90,7 @@ module.exports = {
 
                     const embed2 = new EmbedBuilder()
                         .setColor('Blue')
-                        .setDescription(`This word has been blocked from being sent on the server  ${world}`);
+                        .setDescription(`This word has been blocked from being sent on the server  ${word}`);
 
                     await interaction.editReply({ content: ``, embeds: [embed2] });
 
